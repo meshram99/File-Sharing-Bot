@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("29895250", ""))
 API_HASH = os.environ.get("29ca1e2311efdf950eea03a6ae2bc8ee", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("-1001893842833", ""))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("2017335429", ""))
@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("2017335429", ""))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = os.environ.get("mongodb+srv://Dpcinema:Dpcinema@atlascluster.mcfyzy4.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster", "")
+DB_NAME = os.environ.get("DATABASE_NAME", "Dpcinema")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
